@@ -1,8 +1,8 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: "https://velogitara.github.io/test_followers/",
-    plugins: [react()],
+  base: 'https://velogitara.github.io/',
+  plugins: [react()],
 });
